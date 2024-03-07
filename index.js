@@ -48,3 +48,13 @@ document.addEventListener('click', (e) => {
         autocompleteItems.innerHTML = '';
     }
 });
+//___________________________
+function handleContinue() {
+    event.preventDefault(); // Prevent default action of the event
+
+    // Hide formA
+    document.getElementById('formA').style.display = 'none';
+
+    // Show formB
+    document.getElementById('formB').style.display = 'block';
+}

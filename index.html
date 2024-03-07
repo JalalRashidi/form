@@ -14,6 +14,7 @@
   <section class="section">
     <div class="contianer">
       <div class="form">
+        <div id="formA">
         <h2 class="heading">
           Please fill in the details of your trip
         </h2>
@@ -58,9 +59,29 @@
               <li><label><input type="radio" name="option"> Do not know</label></li>
             </ul>
           </div>
-          <div class="next">
-            <button class="btn-continue">Continuou</button>
+          <div class="next" >
+            <button class="btn-continue" onclick="handleContinue()">Continuou</button>
           </div>
+        </div>
+
+        <div id="formB">
+          <div class="formBdata">
+          <h2 class="heading">You are not entitled to flight compensation</h2>
+          <p>Would you like us to call you regarding your trip? Then you can fill in your contact information below. You only need to fill in one of the fields.</p>
+          <div class="data2">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        
+            <label for="phone">Telephone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your Telephone number">
+        
+          </div>
+          <div class="control-btns">
+            <button class="btn">submit</button>
+            <button class="btn btn-return">return</button>
+          </div>
+        </div>
+        </div>
         </form>
       </div>
       <div class="info">

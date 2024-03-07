@@ -146,7 +146,7 @@ border-radius: 20px;
 }
 
 .contianer .info{
-padding-top: 40px; ;
+padding-top: 40px; 
   }
  .info h5{
     font-size: 20px;
@@ -169,3 +169,41 @@ padding-top: 40px; ;
 .need_help p{
   color: rgb(99, 98, 98);
 }
+#formB{
+display: none;
+}
+.formBdata p{
+  font-weight: bold; 
+  padding: 20px 20px;
+}
+.formBdata .data2{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  gap: 8px;
+}
+.formBdata input{
+  padding: 12px;
+}
+.control-btns{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+.btn{
+  border: none;
+  color: white;
+  background-color: orange;
+  padding: 8px 32px;
+  cursor: pointer;
+  border-radius: 20px;
+  }
+  .btn:hover{
+    background-color: rgb(226, 148, 2);
+    color: white;
+  }
+  .btn-return{
+    background: white;
+    color: gray;
+  }
