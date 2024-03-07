@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Navbar | CodingNepal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <section class="section">
+    <div class="contianer">
+      <div class="form">
+        <h2 class="heading">
+          Please fill in the details of your trip
+        </h2>
+        <form action="" class="mainForm">
+          <div class="top_div">
+            <div class="inner_div">
+              <label for="">Airline</label>
+              <div class="autocomplete">
+                <input type="text" id="searchInput" placeholder="Airline">
+                <div class="autocomplete-items" id="autocompleteItems"></div>
+            </div>
+            </div>
+            <div class="inner_div">
+              <label for="">Planned departure date</label>
+              <input type="date">
+            </div>
+          </div>
+          <div class="stopover">
+
+            <p>Stopovers</p>
+            <ul>
+              <li><label><input type="radio" name="stopover" value="0"> No stopovers</label></li>
+              <li><label><input type="radio" name="stopover" value="1"> 1 stopover</label></li>
+              <li><label><input type="radio" name="stopover" value="2"> 2 stopovers</label></li>
+              <li><label><input type="radio" name="stopover" value="3"> 3 stopovers</label></li>
+            </ul>
+          </div>
+          <div class="flight_details">
+            <h2>Flight</h2>
+            <label for="">Departure airport</label>
+            <input type="text">
+            <label for="">Arrival airport</label>
+            <input type="text">
+          </div>
+          <div class="reason">
+            <p >What reason did the airline give you?</p>
+            <ul>
+              <li><label><input type="radio" name="option"> The plane was delayed</label></li>
+              <li><label><input type="radio" name="option"> Flight was cancelled</label></li>
+              <li><label><input type="radio" name="option"> I was denied boarding</label></li>
+              <li><label><input type="radio" name="option"> I missed my connecting flight</label></li>
+              <li><label><input type="radio" name="option"> Do not know</label></li>
+            </ul>
+          </div>
+          <div class="next">
+            <button class="btn-continue">Continuou</button>
+          </div>
+        </form>
+      </div>
+      <div class="info">
+       <h5>It only takes 2 minutes</h5>
+       <div class="steps">
+        <span>steps 1/3</span>
+       </div>
+       <div class="need_help">
+        <h4>Need help?</h4>
+        <p>69 13 69 06</p>
+         <p>customer service</p> 
+         <p> @danskrejsehjaelp.dk</p>
+       </div>
+      </div>
+    </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .section{
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 24px 0;
+    font-family: sans-serif;
+  }
+.contianer{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap:50px;
+  width: 90%;
+  margin:0 auto;
+}
+.contianer .form{
+ 
+  background: white;
+  grid-column: span 2 / span 2;
+}
+.heading{
+  background: #1AB9A7;
+  color: white;
+  padding: 24px;
+  font-size: 32px;
+}
+.mainForm{
+  padding: 24px;
+}
+.top_div{
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  width: 50%;
+}
+.top_div,.inner_div label{
+  font-size: 20px;
+}
+.top_div,.inner_div input {
+  width: 100%;
+  min-width: fit-content;
+  padding: 8px;
+  
+}
+.inner_div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.stopover{
+  margin: 24px 0px;
+}
+.stopover p{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+
+input[type="radio"] {
+  
+  width: 20px;
+  height: 20px;
+  border: 2px solid #999;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-bottom: 12px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.flight_details{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+ 
+}
+.flight_details h2{
+  padding-bottom: 10px;
+}
+.flight_details input{
+  padding: 8px;
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+ 
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+.reason{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reason p{
+font-size: 20px;
+font-weight: bolder;
+}
+.next{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-continue{
+border: none;
+color: white;
+background-color: orange;
+padding: 8px 32px;
+cursor: pointer;
+border-radius: 20px;
+}
+.btn-continue:hover{
+  background-color: rgb(226, 148, 2);
+}
+
+.contianer .info{
+padding-top: 40px; ;
+  }
+ .info h5{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+.info .steps{
+  background-color: white;
+  padding:  12px;
+  border-radius: 8px;
+  margin: 24px 0px;
+}
+.need_help{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.need_help h4{
+  margin-bottom: 12px;
+}
+.need_help p{
+  color: rgb(99, 98, 98);
+}
